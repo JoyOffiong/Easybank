@@ -89,7 +89,7 @@ nav ul {
   color: rgb(101, 100, 100);
 }
 .text-wrap p {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 5%;
 }
 .text-wrap button {
@@ -139,7 +139,7 @@ section {
 }
 .choose-easybank p {
   line-height: 23px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .services-items,
 .latest-articles {
@@ -159,6 +159,7 @@ section {
 .item-text p,
 .articles-text-wrap p {
   margin-top: 5%;
+  font-size: 14px;
 }
 .item-img {
   margin-bottom: 5%;
@@ -176,6 +177,7 @@ section {
 .second-section-heading h2{
   color: rgb(101, 100, 100);
 }
+
 .articles-item {
   width: 24%;
   margin-bottom: 7%;
@@ -309,7 +311,7 @@ ul a {
   }
   .text-wrap {
     margin: auto;
-    margin: 2% 0;
+    margin: 5% 0;
     width: 100%;
     text-align: center;
     display: block;
@@ -363,6 +365,7 @@ ul a {
   /* hero-section styling */
   .hero-section {
     padding-left: 0;
+    padding: 5% 0;
     flex-direction: column;
     background-color: hsl(0, 0%, 98%);
     color: hsl(233, 8%, 62%);
@@ -404,7 +407,7 @@ ul a {
     height: 300px;
   }
   .choose-easybank p{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .services-items,
@@ -423,13 +426,7 @@ ul a {
   .item-text {
     text-align: center;
   }
-  .item-text p{
-    font-size: 16px;
-  }
-  .articles-text-wrap .smaller-texts{
-    font-size: 16px;
-  }
-  .footer-content {
+   .footer-content {
     display: block;
   }
   .logo-socialmedia,
