@@ -8,48 +8,45 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <div class="main-wrap">
-      <!-- Header Styling -->
-      <header>
-        <div class="logo">
-          <a href="" class="logo">
-            <img src="../Images/logo.svg" alt="" />
-          </a>
+    <header>
+      <div class="logo">
+        <a href="" class="logo">
+          <img src="../Images/logo.svg" alt="" />
+        </a>
+      </div>
+      <nav>
+        <ul class="navlinks" >
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Careers</a></li>
+          <div class="btn-wrap">
+            <button class='request1'><a href="">Request Invite</a></button>
+          </div>
+        </ul>
+        <div class="buttons">
+          <button class="nav-toggle"></button>
+          <button class="nav-toggle2" style="display:none;"><span><img class="closeicon" src="/Images/icon-close.svg" alt="" ></span></button>
         </div>
-        <nav>
-          <input type="checkbox" id="nav-checkbox" class="nav-checkbox" />
-          <label for="nav-checkbox" class="nav-toggle">
-            <svg class="hamburger-icon" height="30" width="30">
-              <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
-              <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
-              <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
-            </svg>
-            <svg class="close" viewbox="0 0 384 512" width="30" title="times">
-              <path
-                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19
-                               0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28
-                                75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28
-                                12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28
-                                32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176
-                                322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 
-                                12.28-32.19 0-44.48L242.72 256z"
-              />
-            </svg>
-          </label>
-          <ul class="nav-bar">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Careers</a></li>
-          </ul>
-        </nav>
-        <button><a href="">Request Invite</a></button>
-      </header>
+      </nav>
+    </header>
+    <ul class="nav-bar">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Careers</a></li>
+      <div class="btn-wrap">
+        <button class='request1'><a href="">Request Invite</a></button>
+      </div>
 
+    </ul>
+    
+    <div class="main-wrap">
       <!-- Hero-section styling -->
       <div class="hero-section">
-        <div class="text-wrap">
+        <div class="text-wrap" >
           <h2>
             Next generation<br />
             digital banking
@@ -59,7 +56,7 @@
             one-stop-shop for spending, saving, budgeting, investing, and much
             more
           </p>
-          <button><a href="">Request Invite</a></button>
+          <button class="request"><a href="">Request Invite</a></button>
         </div>
         <div class="hero-background-image">
           <img class="img1" src="../Images/bg-intro-desktop.svg" alt="" />
@@ -222,11 +219,12 @@
             </div>
           </div>
           <div class="button-rights-reserved">
-            <button><a href="">Request Invite</a></button>
+            <button class="request"><a href="">Request Invite</a></button>
             <p>© Easybank. All Rights Reserved</p>
           </div>
         </div>
       </footer>
+      <script src="myScripts.js"></script>
     </div>
   </body>
 </html>
